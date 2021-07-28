@@ -1,0 +1,42 @@
+.purple {
+  height: 50px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.cyan {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: cyan;
+}
+
+.cyan.middle {
+  width: 150px;
+}
+
+.container {
+  display: flex;
+}
+
+.yellow {
+  background-color: yellow;
+  flex-grow: 4;
+  height: 500px;
+}
+
+.lime {
+  background-color: lime;
+  flex-grow: 1;
+  height: 500px;
+}
